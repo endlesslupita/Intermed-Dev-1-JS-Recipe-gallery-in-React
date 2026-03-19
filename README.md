@@ -1,5 +1,47 @@
 # Recipe Gallery in React
 
+## Project Summary
+
+A static React app that displays a gallery of traditional Korean recipes. Each recipe card shows the dish name, a photo, and a list of ingredients. The app demonstrates list rendering in React using `map()`, component composition, and CSS styling — with no state management.
+
+---
+
+## How to Run
+
+```bash
+cd recipe-gallery
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+**To run tests:**
+
+```bash
+npm run test
+```
+
+---
+
+## Video Script
+
+- **Intro:** Briefly describe the project — a Korean recipe gallery built with React and Vite
+- **Show the app:** Scroll through the gallery, pointing out the recipe title, ingredients list, and image for each card
+- **Explain the code:** Open `RecipeGallery.jsx` and walk through how `map()` renders each card from the `recipes` array; highlight the `key` prop
+- **Normal test cases:**
+  - All 4 recipe titles render correctly
+  - Ingredients for a recipe appear on screen
+  - All images have alt text
+- **Edge test cases:**
+  - Component mounts without crashing
+  - List items render correctly
+  - All recipe headings are visible
+  - All images have a `src` attribute
+- **Run tests live:** Run `npm run test` and show all tests passing
+
+---
+
 ## Objective
 
 Develop a Recipe Gallery using React to display a curated list of recipes, focusing on rendering static data. This assignment emphasizes understanding **list rendering in React** without involving state management or interactivity.
