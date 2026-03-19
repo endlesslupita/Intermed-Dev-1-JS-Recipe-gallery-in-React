@@ -1,0 +1,9 @@
+img {
+  width: 300px;
+}
+ul {
+  text-align: left;
+}
+.recipe-card {
+  border-bottom: 1px solid gray;
+}
